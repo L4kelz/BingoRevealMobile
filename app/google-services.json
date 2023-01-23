@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "532553883052",
+    "project_id": "bingo-reveal-mobile-b7ba1",
+    "storage_bucket": "bingo-reveal-mobile-b7ba1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532553883052:android:4e7ba0eb2e846f108d6e09",
+        "android_client_info": {
+          "package_name": "com.bpg.bingorevealmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532553883052-ek97hurhu2au1chtuhj2ea7ld5o0kva2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4bzI2ubNDyoKtd2rdYMoQH5RAhIXbL0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532553883052-ek97hurhu2au1chtuhj2ea7ld5o0kva2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

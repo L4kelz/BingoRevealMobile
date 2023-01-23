@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mainLayout_play">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp">
+
+
+            <TextView
+                android:id="@+id/txtviewcard_play"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="266dp"
+                android:text="CARD NAME:"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.1" />
+
+            <TextView
+                android:id="@+id/id_number_play"
+                android:layout_width="125dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="254dp"
+                android:text="@string/id_number"
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtviewcard_play"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/_b1"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="75"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.041"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play" />
+
+            <TextView
+                android:id="@+id/_b"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="75"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b1"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b2"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="75"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b3"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="75"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b2"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b4"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="75"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b3"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b5"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b4"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b6"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b5"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b7"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b6"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b8"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b7"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b9"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="2"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b8"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b10"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="3"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b9"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b11"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="3"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b10"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b12"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="3"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b11"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b13"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="3"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b12"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.785" />
+
+            <TextView
+                android:id="@+id/_b14"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="4"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b13"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b15"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="4"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b14"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b16"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="4"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b15"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b17"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="4"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b16"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b18"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="4"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b17"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b19"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="5"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b18"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b20"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="5"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b19"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b21"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="5"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b20"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b22"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="5"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b21"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/_b23"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="5"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="8sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/_b22"
+                app:layout_constraintTop_toBottomOf="@+id/id_number_play"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
